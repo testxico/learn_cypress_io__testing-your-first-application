@@ -1,3 +1,10 @@
+
+  
+Cypress.Commands.add("getByData", (selector) => {
+return cy.get(`[data-test=${selector}]`)
+})
+
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
